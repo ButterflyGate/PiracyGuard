@@ -1,0 +1,16 @@
+no-tests = true
+no-hooks = true
+output = "postgres/models"
+pkgname = "models"
+wipe = false
+
+[psql]
+schema = "public"
+dbname = "piracy"
+host = "127.0.0.1"
+port = 12345
+user = "kyota"
+pass = "pass"
+sslmode = "disable"
+whitelist = []
+blacklist = []
